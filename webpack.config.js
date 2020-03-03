@@ -3,11 +3,11 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
     entry:  {
-        main: './src/santale.ts'
+        main: './src/santali.ts'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'santale.min.js'
+        filename: 'santali.min.js'
     },
     resolve: {
         extensions: ['.ts', '.json']
